@@ -1,0 +1,51 @@
+body {
+    background-color: #16151a;
+    color: rgba(255, 255, 255, 0.893);
+    font-family: 'Indie Flower', cursive;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@mixin bg-config {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.kissandrose {
+    background-image: url(../img/kissandrose.jpg);
+    @include bg-config;
+}
+.brutalinglass {
+    background-image: url(../img/brutalinglass.jpg);
+    @include bg-config;
+}
+.sleaptogether {
+    background-image: url(../img/sleaptogether.jpg);
+    @include bg-config;
+}
+.hands {
+    background-image: url(../img/hands.jpg);
+    @include bg-config;
+}
+.kissandhair{
+    background-image: url(../img/kissandhair.jpg);
+    @include bg-config;
+}
+.ourselfie{
+    background-image: url(../img/ourselfie.jpg);
+    @include bg-config;
+}
+.kisslight{
+    background-image: url(../img/kisslight.jpg);
+    @include bg-config;
+}
+.kiss{
+    background-image: url(../img/kiss.jpg);
+    @include bg-config;
+}
+.sleap{
+    background-image: url(../img/sleap.jpg);
+    @include bg-config;
+}

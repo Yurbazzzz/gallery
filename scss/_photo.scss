@@ -1,0 +1,20 @@
+.photo {
+    width: 90%;
+    height: 400px;
+    margin: 5%;
+
+    &__text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.6s ease;
+        opacity: 0;
+    }
+}
+
+.photo:hover .photo__text {
+    height: inherit;
+    background-color: transparent;
+    opacity: 0.7;
+    background: black;
+}

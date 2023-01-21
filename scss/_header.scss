@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border-bottom: solid 2px gray;
+    }
+
+    &__logo {
+        margin: 0px 10px;
+        fill: rgba(255, 0, 64, 0.927);
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
